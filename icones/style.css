@@ -1,0 +1,10 @@
+.bi.bi-bell {
+    font-size: 40px;
+    color: gold;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.bi.bi-bell &:hover {
+    color: green;
+}

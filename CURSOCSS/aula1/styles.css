@@ -1,0 +1,77 @@
+/* * {
+    margin: 0;
+}
+
+.container {
+    background-color: #e3d7d7;
+}
+
+.container-fluid {
+    background-color: #dbd1d1;
+}
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid yellow;
+} */
+
+
+/* grid */
+.container {
+    margin-top: 100px;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11,
+.col-6,
+.col-3 {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+    background-color: blue;
+}
+
+#largura {
+    max-width: 500px;
+}
+
+
+
+/* alinhamento vertical */
+
+.vertical {
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.vertical .col-6,
+.vertical .col-3,
+.vertical .col-4 {
+    height: 50px;
+}
